@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* height: 100vh;
+    width: 100vw; */
+}
+
+body{
+    min-height: 100vh;
+}
+
+header{
+    background-image: url(./IMAGENES/Central/imagenCentral.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 100vh;
+}
+
+.card.text-center.w-50.h-100.p-5.border-0{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    /* width: 50%;
+    /* height: 88.8%; */
+    position: relative;
+    left: 50%;
+    background-color: rgba(55, 55, 55, 0.001);
+    /* background-color: black; */
+} 
+
+.text.card-body{
+    
+    /* width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+    justify-content: center;
+    /* position: relative;
+    left:-25%; */
+    /* color: white; */
+    /* z-index: 1; */
+}
+
+.productos{
+    background-color: rgb(208, 181, 135);
+}
+
+.card.my-3.text-center{
+    background-color: rgb(208, 181, 135);
+    border: none;
+}
+
+.img-calidad{
+    width: 100px;
+    height: 100px;
+    filter: invert(0.4) sepia(1) hue-rotate(20deg) saturate(1000%);
+}
