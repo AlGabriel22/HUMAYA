@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;800&family=Comfortaa:wght@300');
 * {
     margin: 0;
     padding: 0;
@@ -7,10 +8,19 @@
 
 body{
     min-height: 100vh;
+    font-family: 'Montserrat', 'Comfortaa';
+}
+
+a{
+    color: aliceblue;
+}
+
+a:hover{
+    color: burlywood;
 }
 
 header{
-    background-image: url(./IMAGENES/Central/imagenCentral.png);
+    background-image: url(./IMAGENES/Central/imagenCentral2.png);
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
@@ -49,16 +59,25 @@ header{
 }
 
 .card.my-3.text-center{
-    background-color: rgb(208, 181, 135);
+    background-color: #d0b587;
     border: none;
 }
 
 .img-calidad{
     width: 100px;
     height: 100px;
-    filter: invert(0.4) sepia(1) hue-rotate(20deg) saturate(1000%);
+    filter: brightness(0) saturate(100%) invert(93%) sepia(16%) saturate(1328%) hue-rotate(319deg) brightness(89%) contrast(96%);
+    /* filter: invert(0.4) sepia(1) hue-rotate(20deg) saturate(1000%); */
 }
 
 .card-body.recetas{
-    background-color: rgb(208, 181, 135);
+    background-color: rgb(182, 158, 118);
+}
+
+
+@media (max-width: 767.98px) { 
+    .card.text-center.w-50.h-100.p-5.border-0 {
+        display: flex;
+        justify-content: center;
+    }
 }
