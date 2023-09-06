@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;800&family=Comfortaa:wght@300');
+
 * {
     margin: 0;
     padding: 0;
@@ -27,31 +28,22 @@ header{
     height: 100vh;
 }
 
-.card.text-center.w-50.h-100.p-5.border-0{
-    display: flex;
-    flex-wrap: wrap-reverse;
-    justify-content: flex-end;
-    align-items: center;
-    /* width: 50%;
-    /* height: 88.8%; */
-    position: relative;
-    left: 50%;
-    background-color: rgba(55, 55, 55, 0.001);
-    /* background-color: black; */
-} 
+.navbar {
+    background-color: rgba(16, 16, 16, 0.3);
+    height: 85px;
+}
 
-.text.card-body{
+.card-hero{
+    color: white;
+    background-color: rgba(16, 16, 16, 0);
+    border: none;
+}
+
+@media  screen and (max-width: 992px) {
+    .card-hero{
+        background-color: rgba(16, 16, 16, 0.3);
+    }
     
-    /* width: 50%;
-    display: flex;
-    flex-direction: column;
-    /* justify-content: space-between; */
-    align-items: center;
-    justify-content: center;
-    /* position: relative;
-    left:-25%; */
-    /* color: white; */
-    /* z-index: 1; */
 }
 
 .productos{
@@ -74,10 +66,9 @@ header{
     background-color: rgb(182, 158, 118);
 }
 
-
-@media (max-width: 767.98px) { 
-    .card.text-center.w-50.h-100.p-5.border-0 {
-        display: flex;
-        justify-content: center;
+@media screen and (max-width: 768px){
+    .hidden{
+        display: none;
     }
+    
 }

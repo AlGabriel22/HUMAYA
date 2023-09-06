@@ -16,12 +16,12 @@
 <body class="bg-dark">
     <header>
         <!--Nav mobile-->
-        <nav class="navbar navbar-expand-lg navbar-dark opacity-25 border-bottom border-secondary">
+        <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container-fluid">
                 <div class="d-flex align-items-center">
                     <a class="navbar-brand" href="#">
                         <img src="IMAGENES/Logo/HconDulce100x100.png" alt="Logo Humaya" width="48" height="48"
-                            class="d-inline-block align-text-top">
+                            class="d-inline-block align-text-top img-fluid">
                         <a class="navbar-brand colorTituloLogo fw-semibold" href="#">Humaya</a>
                     </a>
                 </div>
@@ -48,27 +48,24 @@
                 </div>
             </div>
         </nav>
-        <div class="card text-center w-50 h-100 p-5 border-0" style="width: 18rem;">
-            <div class="text card-body text-light d-flex flex-column align-items-center">
-                <h1 class="card-title fw-semibold py-3">Dulces Del Alma</h1>
-                <p class="card-text text-start fs-5 pb-3">Los productos HUMAYA son elaborados desde hace más de 50 años fiel
-                    a las
-                    tradiciones
-                    familiares y sabores caseros, acompañandote en los momentos más importantes de la vida.</p>
-                <a href="#" class="btn btn-outline-light">CONOCENOS</a>
+        <div class="container-fluid h-100 my-5">
+            <div class="row d-flex justify-content-end align-items-center h-75">
+                <div class="col-sm-12 col-lg-6 mb-3 mb-sm-0">
+                    <div class="card card-hero">
+                        <div class="text card-body text-center">
+                            <h1 class="card-title fw-semibold py-3">Dulces Del Alma</h1>
+                            <p class="card-text text-start fs-5 pb-3">Los productos HUMAYA son elaborados desde hace más
+                                de 50 años fiel
+                                a las
+                                tradiciones
+                                familiares y sabores caseros, acompañandote en los momentos más importantes de la vida.
+                            </p>
+                            <a href="#" class="btn btn-outline-light">CONOCENOS</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <!-- <div class="contenedor">
-            <div class="text">
-                <h1 class="text-white">DULCES DEL ALMA</h1>
-                <p class="text-light">Los productos HUMAYA son elaborados desde hace más de 50 años fiel a las
-                    tradiciones
-                    familiares y sabores caseros, acompañandote en los momentos más importantes de la vida.
-                </p>
-                <button type="button"
-                    class="btn btn-dark btn-lg rounded-pill position-relative end-50">CONOCENOS</button>
-            </div>
-        </div> -->
     </header>
 
     <main>
@@ -100,7 +97,11 @@
                 </div>
 
                 <div class="card text-center border-0 bg-dark" style="max-width: 1400px;">
-                    <div class="row g-0">
+                    <div class="row g-0 card-2 d-flex flex-lg-row-reverse">
+                        <div class="col-md-6">
+                            <img src="./IMAGENES/Productos/Producto2.png" class="img-fluid rounded-start" alt="..."
+                                style="min-height: 300px;">
+                        </div>
                         <div class="col-md-6 m-auto">
                             <div class="card-body text-light h-100">
                                 <h5 class="card-title" style="color:burlywood;">DULCE DE LECHE SIN AZÚCAR</h5>
@@ -113,10 +114,6 @@
                                 <a href="#" class="btn btn-outline-light"
                                     style="color:burlywood; border: 1px solid burlywood;"><small>+INFO</small></a>
                             </div>
-                        </div>
-                        <div class="col-md-6">
-                            <img src="./IMAGENES/Productos/Producto2.png" class="img-fluid rounded-start" alt="..."
-                                style="min-height: 300px;">
                         </div>
                     </div>
                 </div>
@@ -146,8 +143,10 @@
                     <div class="row g-0">
                         <div class="col-md-6 m-auto">
                             <div class="card-body">
-                                <h5 class="card-title fw-bolder" style="color:rgb(109, 82, 48);">ALFAJORES DE MAICENA</h5>
-                                <p class="card-text text-start px-5 text-light fs-5">Alfajores de dulce con coco rallado,
+                                <h5 class="card-title fw-bolder" style="color:rgb(109, 82, 48);">ALFAJORES DE MAICENA
+                                </h5>
+                                <p class="card-text text-start px-5 text-light fs-5">Alfajores de dulce con coco
+                                    rallado,
                                     relleno con 2cm de pura
                                     dulzura. Pudiendo elegir entre dulce de leche tradicional, light o choconutt.</p>
                                 <p class="card-text fw-bolder"><small style="color:rgb(109, 82, 48);">Presentación en en
@@ -171,26 +170,28 @@
                 <h4 class="text-light">La mejor calidad para vos</h4>
             </div>
             <div class="container pb-5">
-                <div class="row justify-content-md-center">
-                    <div class="col col-lg-2 d-flex justify-content-end">
+                <div class="row d-flex justify-content-center">
+                    <div class="col col-lg-2 d-flex justify-content-center">
                         <figure class="figure">
                             <img src="./IMAGENES/Calidad/organic2.png"
-                                class="figure-img img-fluid img-calidad rounded float-start" alt="...">
-                            <figcaption class="figure-caption text-center" style="color: #deb887;">100% ORGANICO</figcaption>
+                                class="figure-img img-fluid img-calidad rounded m-auto" alt="...">
+                            <figcaption class="figure-caption text-center" style="color: #deb887;"><small>100% ORGANICO</small>
+                            </figcaption>
                         </figure>
                     </div>
-                    <div class="col-md-auto">
+                    <div class="col-lg-2 d-flex justify-content-center">
                         <figure class="figure">
                             <img src="./IMAGENES/Calidad/sin_aditivos.png"
-                                class="figure-img img-fluid img-calidad rounded mx-auto d-block" alt="...">
-                            <figcaption class="figure-caption text-center" style="color: #deb887;">SIN CONSERVANTES</figcaption>
+                                class="figure-img img-fluid img-calidad rounded d-block m-auto" alt="...">
+                            <figcaption class="figure-caption text-center" style="color: #deb887;"><small>SIN CONSERVANTES</small>
+                            </figcaption>
                         </figure>
                     </div>
-                    <div class="col col-lg-2">
+                    <div class="col col-lg-2 d-flex justify-content-center">
                         <figure class="figure">
                             <img src="./IMAGENES/Calidad/sin_tacc.png"
-                                class="figure-img img-fluid img-calidad rounded float-end" alt="...">
-                            <figcaption class="figure-caption text-center" style="color: #deb887;">SIN TACC</figcaption>
+                                class="figure-img img-fluid img-calidad rounded m-auto" alt="...">
+                            <figcaption class="figure-caption text-center" style="color: #deb887;"><small>SIN TACC</small></figcaption>
                         </figure>
                         <!-- <img src="./IMAGENES/Calidad/sin_tacc.png" class="img-calidad rounded float-end" alt="..."> -->
                     </div>
@@ -206,24 +207,28 @@
                     </div>
                     <div class="col-md-6 my-auto p-5 text-center">
                         <div class="card-body">
-                            <p class="card-title text-start fw-medium fs-5">Déjanos tu consulta y nuestro personal se pondrá en contacto
+                            <p class="card-title text-start fw-medium fs-5">Déjanos tu consulta y nuestro personal se
+                                pondrá en contacto
                                 a la
                                 brevedad.</p>
                             <div class="py-3">
                                 <form action="">
                                     <div class="mb-3 text-start">
                                         <label for="name" class="form-label fw-medium">Nombre:</label>
-                                        <input type="text" class="form-control" id="name1" placeholder="Escribe tu nombre">
+                                        <input type="text" class="form-control" id="name1"
+                                            placeholder="Escribe tu nombre">
                                     </div>
                                     <div class="mb-3 text-start">
                                         <label for="email" class="form-label fw-medium">Email:</label>
-                                        <input type="email" class="form-control" id="email1" placeholder="name@example.com">
+                                        <input type="email" class="form-control" id="email1"
+                                            placeholder="name@example.com">
                                     </div>
                                     <div class="mb-3 text-start">
                                         <label for="textarea1" class="form-label fw-medium">Escribe tu mensaje:</label>
                                         <textarea class="form-control" id="textArea1" rows="3"></textarea>
                                     </div>
-                                    <button type="submit" class="btn btn-outline-light fw-bold mt-3" style="color:rgb(109, 82, 48); border: 2px solid rgb(109, 82, 48);">Enviar</button>
+                                    <button type="submit" class="btn btn-outline-light fw-bold mt-3"
+                                        style="color:rgb(109, 82, 48); border: 2px solid rgb(109, 82, 48);">Enviar</button>
                                 </form>
                             </div>
                         </div>
@@ -268,7 +273,8 @@
                         <p class="card-text">Una deliciosa opción para acompañar las meriendas, ese antojo de media
                             noche o compartir con amigos.</p>
                         <div class="d-grid col-6 mx-auto">
-                            <a href="#" class="btn btn-outline-light btn-sm" style="color:rgb(109, 82, 48); border: 1.5px solid rgb(109, 82, 48);">PREPARACIÓN</a>
+                            <a href="#" class="btn btn-outline-light btn-sm"
+                                style="color:rgb(109, 82, 48); border: 1.5px solid rgb(109, 82, 48);">PREPARACIÓN</a>
                         </div>
                     </div>
                 </div>
@@ -279,7 +285,8 @@
                         <p class="card-text">Las galletitas más tiernas y ricas, rellenas de dulce de leche, ideales
                             para el mate y la hora del té...</p>
                         <div class="d-grid col-6 mx-auto">
-                            <a href="#" class="btn btn-outline-light btn-sm" style="color:rgb(109, 82, 48); border: 1.5px solid rgb(109, 82, 48);">PREPARACIÓN</a>
+                            <a href="#" class="btn btn-outline-light btn-sm"
+                                style="color:rgb(109, 82, 48); border: 1.5px solid rgb(109, 82, 48);">PREPARACIÓN</a>
                         </div>
                     </div>
                 </div>
@@ -290,7 +297,8 @@
                         <p class="card-text">La torta de tres capas más sabrosa del mundo, combina una base de vainlla,
                             dulce de leche y cubierta de choconutt.</p>
                         <div class="d-grid col-6 mx-auto">
-                            <a href="#" class="btn btn-outline-light btn-sm" style="color:rgb(109, 82, 48); border: 1.5px solid rgb(109, 82, 48);">PREPARACIÓN</a>
+                            <a href="#" class="btn btn-outline-light btn-sm"
+                                style="color:rgb(109, 82, 48); border: 1.5px solid rgb(109, 82, 48);">PREPARACIÓN</a>
                         </div>
                     </div>
                 </div>
@@ -304,7 +312,7 @@
         <div class="container text-center">
             <div class="row">
                 <div class="col m-auto"><img width="150" src="./IMAGENES/Logo/LogoHumaya100x100.png" alt=""></div>
-                <div class="col">
+                <div class="col hidden">
                     <h6 style="color:burlywood;"><small>MENÚ</small></h6>
                     <ul class="list-group">
                         <li class="list-group-item list-group-item-action border border-0 bg-dark"><a
@@ -319,7 +327,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col text-light">
+                <div class="col text-light hidden">
                     <h6 style="color:burlywood;"><small>NAVEGACIÓN</small></h6>
                     <ul class="list-group">
                         <li class="list-group-item border border-0 bg-dark text-light text-start"><small>Preguntas
@@ -344,7 +352,7 @@
                                     class="fa-brands fa-tiktok fa-xl"></i></a></li>
                     </ul>
                 </div>
-                <div class="col">
+                <div class="col hidden">
                     <h6 style="color:burlywood;">
                         <small>UBICACIÓN</small>
                     </h6>
